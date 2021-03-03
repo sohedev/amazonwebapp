@@ -1,0 +1,38 @@
+.home {
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  max-width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home__row {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.home__image {
+  width: 98vw;
+  height: 75vh;
+  -webkit-mask-image: linear-gradient(to top, transparent 25%, black 75%);
+  mask-image: linear-gradient(to top, transparent 25%, black 75%);
+  z-index: -1;
+  margin-bottom: -150px;
+  object-fit: contain;
+}
+
+.home__middle {
+  width: 95vw;
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+  z-index: 1;
+  transition: all 0.2s ease-in-out;
+}
+
+.home__middle:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px 0 rgba(19, 133, 255, 0.466);
+}

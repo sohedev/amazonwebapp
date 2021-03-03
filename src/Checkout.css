@@ -1,0 +1,30 @@
+.checkout {
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  height: max-content;
+}
+.checkout__title {
+  margin-right: 10px;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.checkout__ad {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.checkout__button {
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #f0c14b;  
+  border: none;
+}
+
+.checkout__button:hover {
+  cursor: pointer;
+  box-shadow: 1px 2px 6px #ccc;
+}
